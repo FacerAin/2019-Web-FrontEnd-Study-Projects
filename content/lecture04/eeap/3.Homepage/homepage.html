@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+   
+    <title>다사랑치킨</title>
+    <style>
+        footer {
+            background: url(http://www.idasarang.com/2014/img/sub/footer_bg.png) repeat-x left top;
+            height: 140px;
+            padding-top: 35px;
+            clear: both
+        }
+        footer .container {
+            display:flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            position: fixed;
+        }
+        .container{
+            display:flex;
+        }
+        #header {
+            width: 1000px;
+            margin: 0 auto;
+            height: 153px;
+        }
+            #header .logo {
+                width: 130px;
+                margin: 0 auto;
+                height: 87px;
+            }
+            #header li {
+                list-style-position:inherit;
+                list-style-type: disc;
+                list-style: none;
+                text-align: -webkit-match-parent;
+            }
+        p {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 12pt;
+        }
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: black;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: black;
+        }
+        th {
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+            text-align: -internal-center;
+        }
+        body {
+            border-color:Background;
+            margin: 0;
+            display: block;
+            padding: 0;
+            font-size: 13px;
+            font-family: "맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;
+            width: 100%;
+            background: url(http://www.idasarang.com/2014/img/main/bg_visual_150408.jpg) repeat-x center top;
+        }
+        #head_image {
+            display: block;
+            margin: 50px auto;
+            background: inherit;
+        }
+        #menu {
+            display: block;
+            margin: 50px auto;
+            background:inherit;
+        }
+            #menu p {
+                font-size: medium;
+                font-weight: bold;
+            }
+        #time {
+            display: block;
+            margin: 50px auto;
+            background: inherit;
+        }
+        #map {
+            display: block;
+            margin: 50px auto;
+            background: inherit;
+        }
+       
+
+        #Gnb {
+            position: absolute;
+            width: 1000px;
+            background: url(http://www.idasarang.com/2014/img/menu_bg.png) no-repeat left top;
+            height: 57px;
+            padding-top: 12px;
+            clear: both;
+            z-index: 10;
+        }
+            #Gnb li {
+                display:inline-flex ;
+                margin: auto;
+                padding: inherit;
+                font-size:13px;
+            }
+        a{
+            color:white;
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:-webkit-any-link {
+            
+            cursor: pointer;
+            text-decoration: none;
+        }
+        ul {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align:center;
+            list-style-image:image();
+        }
+        h2{
+            text-align:center;
+            font-size:xx-large;
+            font-display:auto;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+
+        <p class="logo">
+            <a href="#" title="메인으로 이동"><img src="http://www.idasarang.com/2014/img/logo.png" width="130" height="80" alt="다사랑"></a>
+        </p>
+        <nav>
+            <div class="gnb" id="Gnb">
+                <ul>
+                    <li><a href="#head_image">홈</a></li>
+                    <li><a href="#menu">메뉴</a></li>
+                    <li><a href="#time">영업시간</a></li>
+                    <li><a href="#map">매장찾기</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="menu">
+        <h2>메뉴 소개</h2>
+        <ul>
+            <li>
+                <img src="http://www.idasarang.com/2014/img/sub/A0000/A1000_02.jpg" alt="양념치킨 Spicy Chicken" width="211" height="270">
+                <p>
+                    양념치킨 Spicy Chicken매콤 달콤한 양념과 속살숙성치킨의
+                    조화
+                </p>
+            </li>
+            <li>
+                <img src="http://www.idasarang.com/2014/img/sub/A0000/A1000_01.jpg" alt="후라이드치킨 Fried Chicken" width="211" height="270">
+                <p>
+                    후라이드치킨 Fried Chicken마늘,양파,생강 등 다사랑천연양념으로 숙성시켜 속살이 부드럽고 고소함이
+                    입안에서 살살...
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div id="time">
+        <h2>영업시간</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <th>구분</th>
+                    <th>영업시간</th>
+                </tr>
+                <tr>
+                    <td>평일</td>
+                    <td class="boleft">오전 11시 ~ 새벽 2시</td>
+                </tr>
+                <tr>
+                    <td>주말</td>
+                    <td class="boleft">오전 11시 ~ 새벽 2시</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="map">
+        
+            <h3>
+                <strong>주소 : </strong>
+                전북 전주시 완산구 서신동 931-5      <br />
+                <strong>전화번호 : </strong>
+                063-255-9992      / <strong>오픈일 : </strong>
+                2003-05-31
+            </h3>
+        <img src="https://www.google.com/maps/vt/data=uZadSfzQkByYsJzkfpKQuXNm58z3oa6HbBmHwK6ADCOk3Y_J0z0vlEY-Z0xW0NAwRzqM6g0_8j2-75i49igBNZTjSi2YhazWOoDX2Q0ZlppmoQnfSZHuxyqh2fljrOAHN68JtV1ll1h3GmMYAS-YDw0Jhkz_JFU88qigP2R8boOZQSt9RnHopR7QKofxL7zCIxYBYvZIiq6o5H6j92iunbucysBfA5wfajivEeRjQTCeeBsq3QqxDXxVpE9T2F1PObGUshp6_rVns5TH2qxWKmu-JIR-QHBH8OF7I-JO896wj69scCX1GxfxjqLZVxRe6vWunanqCwiUw98lc_VPeHw3XWXyCB1PHVqc5lqKV_fgGyzIp5hgGIlnGAiVQswS36dc9NXEorWoG1E3iXshUl-qF8Y7qPuPDLl7LD3AJUZOSaH4uF-al59dosEpY6oyulfUk3Q2mmAq8MRE0Z5I5t9_mUoKKg" />
+
+    </div>
+    <footer><div class="container">
+        <p>d.com
+            </p>
+        <div>
+            <p>Tel:063-123-4567
+                </p>
+            <p>Email: dasarang@khu.ac.kr
+                </p></div></div></footer>
+
+</body>
+</html>
